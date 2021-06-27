@@ -13,16 +13,18 @@
         tools:layout_editor_absoluteX="149dp"
         tools:layout_editor_absoluteY="111dp">
 
-        <EditText
-            android:gravity="bottom|end"
-            android:id="@+id/etv"
+        <TextView
+            android:id="@+id/tvVar1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_gravity="fill"
             android:layout_weight="6"
-            android:hint="0"
-            android:textAllCaps="true"
-            android:textDirection="locale"
-            android:textSize="60sp"
+            android:cursorVisible="true"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="bottom|end"
+            android:text="0"
+            android:textColor="#F60707"
+            android:textSize="50sp"
             android:textStyle="bold" />
 
         <LinearLayout
