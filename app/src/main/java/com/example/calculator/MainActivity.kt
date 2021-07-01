@@ -294,6 +294,11 @@ class MainActivity : AppCompatActivity(){
             operator="*"
             tvVar1.text="0"
         }
+        btnBack.setOnClickListener {
+            var temp=tvVar1.text.toString().toInt()
+            temp/=10
+            tvVar1.text=temp.toString()
+        }
     }
 
 }
